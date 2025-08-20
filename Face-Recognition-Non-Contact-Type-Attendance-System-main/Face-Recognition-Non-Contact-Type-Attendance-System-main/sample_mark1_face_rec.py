@@ -355,7 +355,7 @@ while True:
                                                                     cv2.putText(frame, "Face is not Real ", (10, 120),cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 255), 2)
                                                                     cv2.putText(frame, "LAST ID VISITED: "+ID_NAME, (10, 160),cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 255), 2)
                            
-                if len(rects) == 0:   #   number of blink remain zero if number of face are zero
+                if len(rects) == 0:   #   number gof blink remain zero if number of face are zero
                     TOTAL=0
 
 
