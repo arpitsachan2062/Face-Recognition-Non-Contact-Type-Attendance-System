@@ -34,7 +34,7 @@ def capture(d):
          
             #time.sleep(1)
         #cv2.imshow("frame",frame)
-        #key = cv2.waitKey(1) & 0xFF
+        #key = cv2.waitKey(1) & 0xFFsasasas
     
     #cap.release()
     #cv2.destroyAllWindows()
